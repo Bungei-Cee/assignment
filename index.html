@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cynthia Bungei | Beginner Web Page</title>
+  <meta name="description" content="A simple beginner HTML page created by Cynthia Bungei using semantic structure, accessibility features, and SEO-friendly metadata.">
+  <meta name="author" content="Cynthia Bungei">
+</head>
+<body>
+
+  <header>
+    <h1>Cynthia Bungei</h1>
+    <nav>
+      <ul>
+        <li><a href="#about" aria-label="About Cynthia">About</a></li>
+        <li><a href="#projects" aria-label="View Cynthia's Projects">Projects</a></li>
+        <li><a href="#contact" aria-label="Contact Cynthia">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Cynthia, an aspiring web developer. This is my first HTML page built with a semantic structure. I’m passionate about creating accessible and user-friendly websites.</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <article>
+        <h3>Portfolio Website</h3>
+        <p>A basic personal portfolio made using HTML and CSS. It includes sections like About, Projects, and Contact.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form aria-label="Contact Form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required aria-required="true"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required aria-required="true"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required aria-required="true"></textarea><br><br>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cynthia Bungei. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
